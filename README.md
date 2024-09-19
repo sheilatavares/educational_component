@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Componente de Curso para Plataforma Online de Educação
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um componente React destinado a uma plataforma online de educação. O componente exibe informações principais de um curso, incluindo título, descrição, professor, data de início e um botão para inscrição. O objetivo é fornecer uma interface consistente e acessível para exibir e interagir com informações sobre cursos.
 
-## Available Scripts
+## Estrutura do Componente
 
-In the project directory, you can run:
+O componente principal é responsável por agrupar os seguintes subcomponentes:
 
-### `npm start`
+- **Título**: Exibe o título do curso.
+- **Imagem do Instrutor**: Mostra a foto do instrutor.
+- **Nome do Instrutor**: Exibe o nome do instrutor.
+- **Elemento de Vídeo**: Incorpora um vídeo relacionado ao curso.
+- **Data de Início**: Mostra a data de início do curso.
+- **Descrição do Curso**: Fornece uma descrição detalhada do curso.
+- **Botão de Inscrição**: Permite que os usuários se inscrevam no curso.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias Utilizadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React**: Biblioteca para construção da interface de usuário.
+- **cva (Class Variance Authority)**: Utilizado para gerenciar e aplicar variantes de classes CSS de maneira eficiente.
+- **clx**: Biblioteca auxiliar para composição e manipulação de classes CSS.
+- **Bootstrap**: Framework CSS utilizado para estilizar os componentes.
 
-### `npm test`
+### Vantagens do cva e clx
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O **cva** oferece várias vantagens para o desenvolvimento de componentes em React:
 
-### `npm run build`
+- **Personalização de Classes**: Facilita a criação e personalização de classes CSS para diferentes variantes de um componente. Permite a definição de variantes de estilo (por exemplo, `standard` e `featured`) e tamanhos (`small`, `medium`, `large`).
+- **Agrupamento de Classes**: Com o **clx**, é possível agrupar e gerenciar classes CSS de forma modular e eficiente. Isso reduz a complexidade e a redundância no código CSS.
+- **Definição de ClassName**: Permite a adição de classes adicionais através da propriedade `className`, facilitando ajustes específicos conforme necessário.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Eventos Personalizados
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+No subcomponente **Botão de Inscrição**, foi adicionado um evento personalizado que dispara uma ação para ser tratada na aplicação principal. Isso permite uma interação dinâmica e a integração com a lógica da aplicação.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Acessibilidade
 
-### `npm run eject`
+Os elementos foram configurados com atributos para seguir as diretrizes de acessibilidade WCAG. O componente foi validado utilizando ferramentas online de avaliação para garantir que atende aos requisitos de acessibilidade.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Instalação e Uso
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para integrar este componente em sua aplicação, siga estes passos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. **Instalação das Dependências**: Certifique-se de ter o **React**, **cva**, e **clx** instalados no seu projeto. Se necessário, instale as dependências com:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm install class-variance-authority clx bootstrap
+   ```

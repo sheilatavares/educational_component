@@ -68,7 +68,7 @@ function App() {
               </div>
             </div>
 
-            <CardOverview.Description size="small" className="text-gray mt-4">
+            <CardOverview.Description size="medium" className="text-black mt-4">
               Aprenda a empregar recursos tecnológicos como ferramenta para
               aprimorar o ensino e levar inovação em sala de aula, como
               gamificação na educação.

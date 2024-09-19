@@ -28,13 +28,13 @@ const Instructor = ({
         alt={`Imagem de ${instructorName}`}
       />
       <div className="text-start ms-3">
-        <h3
+        <h2
           id="instructor-name"
           className={cn(InstructorVariants({ nameSize }), className)}
         >
           {instructorName}
-        </h3>
-        <p className="text-secondary my-0 fs-6">Instrutora</p>
+        </h2>
+        <p className="text-black my-0 fs-6">Instrutora</p>
       </div>
     </div>
   );

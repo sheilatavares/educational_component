@@ -16,13 +16,13 @@ const Title = ({
   ...props
 }: TitleProps) => {
   return (
-    <h2
+    <h1
       {...props}
       className={cn(TitleVariants({ variant, size }), className)}
       aria-level={2}
     >
       {children}
-    </h2>
+    </h1>
   );
 };
 

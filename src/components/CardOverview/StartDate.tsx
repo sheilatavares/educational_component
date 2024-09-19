@@ -17,13 +17,13 @@ const StartDate = ({
 }: StartDateProps) => {
   return (
     <div>
-      <h5
+      <h3
         {...props}
         className={cn(StartDateVariants({ size }), className)}
         aria-labelledby="start-date-label"
       >
         Início: {children}
-      </h5>
+      </h3>
       <p id="start-date-label" className="visually-hidden">
         Data de início do curso
       </p>
@@ -31,7 +31,7 @@ const StartDate = ({
   );
 };
 
-const StartDateVariants = cva('fw-bold text-secondary mb-2', {
+const StartDateVariants = cva('fw-bold text-black mb-2', {
   variants: {
     size: {
       small: 'small-p',
