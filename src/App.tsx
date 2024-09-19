@@ -51,7 +51,7 @@ function App() {
                   className=""
                 />
               </div>
-              <div className="col-md-3 d-md-flex align-items-center">
+              <div className="col-md-3 d-flex text-end align-items-end align-items-md-center justify-content-end">
                 <CardOverview.StartDate size="small" className="me-1 mt-2">
                   11/01/2025
                 </CardOverview.StartDate>
