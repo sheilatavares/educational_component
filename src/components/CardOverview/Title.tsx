@@ -19,7 +19,6 @@ const Title = ({
     <h2
       {...props}
       className={cn(TitleVariants({ variant, size }), className)}
-      role="heading"
       aria-level={2}
     >
       {children}
