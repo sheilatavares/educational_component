@@ -1,0 +1,25 @@
+{
+  "name": "Community Visualization",
+  "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+  "organization": "Looker Studio Codelab",
+  "organizationUrl": "https://url",
+  "termsOfServiceUrl": "https://url",
+  "supportUrl": "https://url",
+  "packageUrl": "https://url",
+  "privacyPolicyUrl": "https://url",
+  "description": "Community Visualization Codelab",
+  "devMode": true,
+  "components": [
+    {
+      "id": "tableChart",
+      "name": "Table",
+      "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+      "description": "A simple table chart.",
+      "resource": {
+        "js": "https://gist.githubusercontent.com/sheilasinc/866cca0b7f93399fd8d79c35a45a9070/raw/ccec24bb5372352f4d47e2ef1a83403a41ea431e/viz-codelab.js",
+        "config": "https://gist.githubusercontent.com/sheilasinc/866cca0b7f93399fd8d79c35a45a9070/raw/ccec24bb5372352f4d47e2ef1a83403a41ea431e/viz-codelab.json",
+        "css": "https://gist.githubusercontent.com/sheilasinc/866cca0b7f93399fd8d79c35a45a9070/raw/ccec24bb5372352f4d47e2ef1a83403a41ea431e/viz-codelab.css"
+      }
+    }
+  ]
+}
